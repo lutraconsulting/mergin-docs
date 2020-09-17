@@ -48,10 +48,52 @@ and thus you can modify it.
 
 Now let's see how we can use the project in QGIS and in the Input app.
 
-## Using your project in Input app
+## Using your project in Input app (Android / iPhone / iPad)
 
-TODO: install input, log in, download project, enjoy!
+The Input mobile app allows you to view your projects on Android devices or iPhone/iPad. It comes with a simple
+easy to use user interface and it features seamless integration with Mergin service. You can find the app in the
+app store of your platform:
 
-## Using your project in QGIS
+<p>
+<a href='https://play.google.com/store/apps/details?id=uk.co.lutraconsulting'><img alt='Get it on Google Play' src='images/google-play-store-badge.png' height="57" /></a>
+<a href='https://apps.apple.com/us/app/input/id1478603559?ls=1'><img alt='Download on the App Store' src='images/app-store.png' width="170" /></a>
+</p>
 
-TODO: Open QGIS, install mergin plugin, sign in, download project and enjoy!
+Once installed, open the app, open **Projects**, tap **My Projects** button and log in using your Mergin username
+and password.
+
+![Input - log in](images/input-login.png)
+
+
+You will get your projects listed, with a button to download the project to your phone/tablet.
+
+![Input - projects](images/input-projects.png)
+
+After tapping the download icon, in few moments the project will be available and you can switch back to **Home** tab
+and open the project.
+
+![Input - map](images/input-map-basic-survey.png)
+
+## Using your project in QGIS (Windows / macOS / Linux)
+
+Working with Mergin projects in QGIS is easy - you only need to install Mergin plugin - just like any other plugin for QGIS:
+
+1. Go to Plugins menu > Manage and Install Plugins...
+2. Search for Mergin and click Install Plugin button
+
+The plugin integrates into the Browser panel in QGIS:
+
+![Mergin plugin in QGIS](images/qgis-mergin-browser.png)
+
+Note: if Browser panel is not open in your session, go to menu View > Panels > Browser to open it.
+
+Find Mergin item in the Browser, right click it and select Configure. Fill in your username and password and click OK.
+Now you can see your projects in the Browser!
+
+![Mergin plugin - projects](images/qgis-mergin-projects.png)
+
+Next, you can right click on a project and select Download. The plugin will ask where to download the project and it will
+start downloading. After a few moments, it will ask whether to open QGIS project file inside the Mergin project you have
+just downloaded - if you click Yes, you are ready to use your project:
+
+![Mergin plugin - basic survey loaded](images/qgis-mergin-basic-survey.png)
