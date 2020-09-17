@@ -1,6 +1,7 @@
 # Mergin Help
 
 - [Quick Start](quick-start.md) - the best place to start reading if you are new to Mergin
+- [Developers](developers.md) - if you are a developer and want to automate some tasks or integrate Mergin with other software
 
 ## Tutorials
 
