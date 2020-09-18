@@ -2,7 +2,8 @@
 layout: page
 ---
 
-## Mergin Help
+
+### Getting Started
 
 - [Quick Start](quick-start.html) - the best place to start reading if you are new to Mergin
 - [Developers](developers.html) - if you are a developer and want to automate some tasks or integrate Mergin with other software
