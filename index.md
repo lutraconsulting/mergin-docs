@@ -1,9 +1,13 @@
-# Mergin Help
+---
+layout: page
+---
 
-- [Quick Start](quick-start.md) - the best place to start reading if you are new to Mergin
-- [Developers](developers.md) - if you are a developer and want to automate some tasks or integrate Mergin with other software
+## Mergin Help
 
-## Tutorials
+- [Quick Start](quick-start.html) - the best place to start reading if you are new to Mergin
+- [Developers](developers.html) - if you are a developer and want to automate some tasks or integrate Mergin with other software
+
+### Tutorials
 
 Coming soon...!
 
@@ -14,7 +18,7 @@ Coming soon...!
 - QGIS project setup: Map themes
 - QGIS project setup: Advanced forms
 
-## External Resources
+### External Resources
 
 Video tutorials:
 - [Create a Groundwater Mapping App with QGIS, Input and Mergin](https://www.youtube.com/watch?v=nlOFbBO40NY) - by Hans van der Kwast, 74min (Sep 2020)
