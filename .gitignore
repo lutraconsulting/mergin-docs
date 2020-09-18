@@ -1,3 +1,3 @@
-_site/
-vendor/
-.jekyll-cache/
+www/_site/
+www/vendor/
+www/.jekyll-cache/
