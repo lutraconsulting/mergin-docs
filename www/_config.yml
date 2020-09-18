@@ -27,6 +27,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: lutraconsulting
 github_username:  lutraconsulting
+linkedin_username: lutra-consulting
+facebook_username: lutraconsulting
 
 # Build settings
 theme: minima
@@ -54,4 +56,4 @@ plugins:
 #   - vendor/ruby/
 
 exclude:
-    - README.md
+  - .jekyll-cache/
