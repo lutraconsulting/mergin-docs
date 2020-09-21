@@ -2,7 +2,7 @@
 
 This repository contains source files for the Mergin Help Center - https://help.cloudmergin.com/
 
-The site is built with Jekyll and auto-deployed using GitHub Pages from `web` branch.
+The site is built with Jekyll and auto-deployed using GitHub Pages from `gh-pages` branch.
 
 # For Developers
 
