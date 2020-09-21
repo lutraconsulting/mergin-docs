@@ -1,8 +1,7 @@
 ---
 layout: page
+title: Quick Start
 ---
-
-## Getting Started with Mergin
 
 It is easy to start using Mergin - let's head to <a href="https://public.cloudmergin.com/">https://public.cloudmergin.com/</a>
 
