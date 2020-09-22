@@ -30,6 +30,12 @@ github_username:  lutraconsulting
 linkedin_username: lutra-consulting
 facebook_username: lutraconsulting
 
+# Which pages will be listed as links in the header of all pages
+header_pages:
+ - quick-start.md
+ - faq.md
+ - developers.md
+
 # Build settings
 theme: minima
 plugins:
