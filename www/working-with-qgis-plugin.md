@@ -5,7 +5,7 @@ title: Working with QGIS plugin for Mergin
 
 You can manage your Mergin projects from within QGIS through Mergin plugin. The sections below describe how to install, configure, create, upload and synchronise your projects and data from QGIS.
 
-### Mergin plugin installation and configuration
+### Installation and configuration
 
 To install Mergin plugin in QGIS:
 
@@ -75,7 +75,7 @@ To synchronise the data back to Mergin:
 
 	<p align="center"><img src="./images/qgis-plugin/sync-status-2.png" width="50%"></p>
 
-**Note:** In addition to the status of changed files, you can also see detailed changes to your survey layer(s) (Geopackage) i.e. the number of added, modified and deleted features.
+    **Note:** In addition to the status of changed files, you can also see detailed changes to your survey layer(s) (GeoPackage) i.e. the number of added, modified and deleted features.
 
 3. Once you confirm the status of changes, you can right-click on the project from the Browser panel under Mergin and select **Synchronize**.
 
@@ -101,4 +101,4 @@ You can create a new Mergin project using the plugin. The plugin offers two opti
 
 You can delete a Mergin project either on your PC (locally) or on the Mergin server. To be able to delete the project on the Mergin server, you need to first delete the files locally.
 
-To delete a project, in the Browser panel, right-click on the project and select **Remove locally**. Once the project is deleted from the PC, you can remove it from the server using the same procedure as above.
+To delete a project, in the Browser panel, right-click on the project and select **Remove locally**. Once the project is deleted from the PC, you can remove it from the server by right-clicking on the project again and selecting **Remove from server**. Warning: this operation is not undoable and all data in the project will be permanently deleted.
