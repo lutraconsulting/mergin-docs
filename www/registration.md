@@ -3,7 +3,7 @@ layout: page
 title: Registration and signing up to the Mergin service
 ---
 
-To start using the Mergin service, you need to sign up. You can sign up either through the [Mergin website](https://public.cloudmergin.com/) or from your mobile device using the [Input app](https://inputapp.io/en/).
+To start using the Mergin service, you need to sign up. You can sign up either through the [Mergin website](https://public.cloudmergin.com/) or from your mobile device using the [Input app](https://inputapp.io/en/) (version 0.7.0 or later).
 
 When you register with the Mergin service, you will be automatically signed up as a free tier user with 100 MB of storage. To upgrade your account, see our [Subscription plans](https://help.cloudmergin.com/subscriptions).
 
