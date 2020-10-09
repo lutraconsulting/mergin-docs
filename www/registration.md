@@ -25,10 +25,10 @@ Alternatively, you can sign up to the Mergin service, through [Input app](https:
 
 5. Fill in the form for registration and select **Sign up**
 
+	<p align="center"><img src="./images/registration/input-reg.png" width="50%"></p>
+
 6. You will receive an email to activate your account
 
 7. After activation, you can sign in to your Mergin account
 
 **Note**: if you forget your password, you can reset it through the [Mergin website](https://public.cloudmergin.com/).
-
-	<p align="center"><img src="./images/registration/input-reg.png.png" width="50%"></p>
