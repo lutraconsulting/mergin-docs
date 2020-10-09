@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Registration and signing up to the Mergin service
+permalink: /registration
 ---
 
 To start using the Mergin service, you need to sign up. You can sign up either through the [Mergin website](https://public.cloudmergin.com/) or from your mobile device using the [Input app](https://inputapp.io/en/) (version 0.7.0 or later).
@@ -13,22 +14,6 @@ Once, you press **Sign up**, you will receive a confirmation email. To sign in a
 
 **Note**: check your SPAM folder if the email does not appear in your inbox after 5 minutes.
 
-Alternatively, you can sign up to the Mergin service, through [Input app](https://inputapp.io/en/):
-
-1. Launch the Input app from your mobile/tablet device
-
-2. Select **Home**
-
-3. On the top right of the screen,select the icon for profile
-
-4. In the new page, select **Sign up**
-
-5. Fill in the form for registration and select **Sign up**
-
-	<p align="center"><img src="./images/registration/input-reg.png" width="50%"></p>
-
-6. You will receive an email to activate your account
-
-7. After activation, you can sign in to your Mergin account
+Alternatively, you can sign up to the Mergin service, through [Input app](https://help.inputapp.io/howto/registration)
 
 **Note**: if you forget your password, you can reset it through the [Mergin website](https://public.cloudmergin.com/).

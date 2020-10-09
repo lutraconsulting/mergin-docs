@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Working with QGIS plugin for Mergin
+permalink: /working-with-qgis-plugin
 ---
 
 You can manage your Mergin projects from within QGIS through Mergin plugin. The sections below describe how to install, configure, create, upload and synchronise your projects and data from QGIS.
@@ -21,7 +22,7 @@ To install Mergin plugin in QGIS:
 
 4. Once installed, you should see Mergin in your QGIS Browser panel (note that if you are using QGIS 3.12 or earlier you will need to restart your QGIS for Mergin to appear in your browser panel):
 
-	<p align="center"><img src="./images/qgis-plugin/installation.png" width="50%"></p>
+	<p align="center"><img src="../images/qgis-plugin/installation.png" width="50%"></p>
 
 	**Note:** if you cannot see your Browser panel, you can enable it by going to the QGIS main menu > View > Panels > Browser
 
@@ -31,7 +32,7 @@ After installation, you need to configure the plugin by entering your Mergin use
 
 2. In the new window, type in your username (or email address used for signing up with Mergin) and password
 
-	<p align="center"><img src="./images/qgis-plugin/configure.png" width="50%"></p>
+	<p align="center"><img src="../images/qgis-plugin/configure.png" width="50%"></p>
 
 You can select to store the password. For that you need to have already configured your [QGIS password manager](https://docs.qgis.org/3.10/en/docs/user_manual/auth_system/auth_overview.html?highlight=password#master-password)
 
@@ -49,15 +50,15 @@ You can select one of the categories and see the listed projects. To download a 
 
 1. Right-click on the project and select **Download**
 
-	<p align="center"><img src="./images/qgis-plugin/download.png" width="50%"></p>
+	<p align="center"><img src="../images/qgis-plugin/download.png" width="50%"></p>
 
 2. A new window will appear to save the project under a folder on your PC. Browse to the folder you want to download your project to and click **Select folder**
 
-	<p align="center"><img src="./images/qgis-plugin/download-progress.png" width="50%"></p>
+	<p align="center"><img src="../images/qgis-plugin/download-progress.png" width="50%"></p>
 
 3. Once the download is completed, you will be presented with an option to open the project in QGIS:
 
-	<p align="center"><img src="./images/qgis-plugin/download-open.png" width="50%"></p>
+	<p align="center"><img src="../images/qgis-plugin/download-open.png" width="50%"></p>
 
 Selecting **Yes** will open the project and all the associated layers.
 
@@ -69,11 +70,11 @@ To synchronise the data back to Mergin:
 
 1. Right-click on the project from the list on your Mergin projects under the Browser panel in QGIS and select **Status**:
 
-	<p align="center"><img src="./images/qgis-plugin/sync-status.png" width="50%"></p>
+	<p align="center"><img src="../images/qgis-plugin/sync-status.png" width="50%"></p>
 
 2. A new window should appear listing the pending changes to be synchronised:
 
-	<p align="center"><img src="./images/qgis-plugin/sync-status-2.png" width="50%"></p>
+	<p align="center"><img src="../images/qgis-plugin/sync-status-2.png" width="50%"></p>
 
     **Note:** In addition to the status of changed files, you can also see detailed changes to your survey layer(s) (GeoPackage) i.e. the number of added, modified and deleted features.
 
@@ -87,11 +88,11 @@ You can create a new Mergin project using the plugin. The plugin offers two opti
 
 * Create a new blank project: with this option, you can create a new blank project on the Mergin server. You can then download the project locally and move your QGIS files and layers to the downloaded empty folder. Once you have all your data under the local folder, you can then synchronise your project to upload all the new files and layers.
 
-	<p align="center"><img src="./images/qgis-plugin/create-blank.png" width="50%"></p>
+	<p align="center"><img src="../images/qgis-plugin/create-blank.png" width="50%"></p>
 
 * Create a new project from an existing folder: provided that you have all your data and project, you can create the project from an existing local folder:
 
-	<p align="center"><img src="./images/qgis-plugin/create-existing.png" width="50%"></p>
+	<p align="center"><img src="../images/qgis-plugin/create-existing.png" width="50%"></p>
 
 	**Note:** You need to have all your files and layers relative to the project file (the default option in [QGIS](https://docs.qgis.org/3.10/en/docs/user_manual/introduction/qgis_configuration.html#general-properties))
 
