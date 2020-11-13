@@ -98,11 +98,11 @@ You can create a new Mergin project using the plugin. The plugin offers two opti
 
 	**Note:** There should be only one QGIS project (qgs or qgz file) within the folder (or subfolders).
 
-The plugin allows you to create the project under your own name or an organization you are a member of, provided that you have write access to the name space.
+The plugin allows you to create the project under your own name or an organization you are a member of, provided that you are owner or admin of the organisation.
 
 ### Cloning an existing project
 
-With the plugin, you can make a copy of one of your existing projects or the ones shared with you. Simply right-click on the project under the **Browser panel > Mergin** and select **Clone**. In the new window, select the **Owner** from the drop-down menu and type your new **Project Name**.
+With the plugin, you can make a copy of one of your existing projects, the ones shared with you or a public project. Simply right-click on the project under the **Browser panel > Mergin** and select **Clone**. In the new window, select the **Owner** from the drop-down menu and type your new **Project Name**.
 
 
 <p align="center"><img src="../images/qgis-plugin/clone.png" width="50%"></p>
@@ -127,3 +127,6 @@ The plugin adds several variables that can be used in QGIS expressions:
 | `@mergin_project_version`   | `42`                             | project | Current version of the active Mergin project |
 
 A common use case is to use `@mergin_username` as the default value for one of the fields in a survey layer to automatically track who has added (and/or modified) a particular record.
+
+### Diagnostic logs
+If you experience any issues with syncing data, you can send the logs to the developers for debugging the issues. To send the logs, right-click on a local project under Mergin in the Browser panel and select **Diagnostic logs**. A new window will appear, click **OK** to confirm.
