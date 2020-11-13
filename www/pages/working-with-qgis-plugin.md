@@ -105,7 +105,7 @@ The plugin allows you to create the project under your own name or an organizati
 With the plugin, you can make a copy of one of your existing projects or the ones shared with you. Simply right-click on the project under the **Browser panel > Mergin** and select **Clone**. In the new window, select the **Owner** from the drop-down menu and type your new **Project Name**.
 
 
-	<p align="center"><img src="../images/qgis-plugin/clone.png" width="50%"></p>
+<p align="center"><img src="../images/qgis-plugin/clone.png" width="50%"></p>
 
 ### Deleting a project
 
