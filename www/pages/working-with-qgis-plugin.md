@@ -98,6 +98,14 @@ You can create a new Mergin project using the plugin. The plugin offers two opti
 
 	**Note:** There should be only one QGIS project (qgs or qgz file) within the folder (or subfolders).
 
+The plugin allows you to create the project under your own name or an organization you are a member of, provided that you have write access to the name space.
+
+### Cloning an existing project
+
+With the plugin, you can make a copy of one of your existing projects or the ones shared with you. Simply right-click on the project under the **Browser panel > Mergin ** and select **Clone**. In the new window, select the **Owner** from the drop-down menu and type your new **Project Name**.
+
+	<p align="center"><img src="../images/qgis-plugin/clone.png" width="50%"></p>
+
 ### Deleting a project
 
 You can delete a Mergin project either on your PC (locally) or on the Mergin server. To be able to delete the project on the Mergin server, you need to first delete the files locally.
