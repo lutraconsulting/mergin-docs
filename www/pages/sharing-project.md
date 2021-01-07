@@ -14,7 +14,7 @@ The first method is to go to the project setting and add user(s) with the type o
 
 ![Mergin sharing setting](/images/project_sharing_setting_manual.png)
 
-Another method which is more suitable for sharing with a large number of users is to send them a link to your private project. If a user does not have access to the project, there will be a button to request access:
+Another method which is more suitable for sharing with a large number of users is to send them a link to your private project (e.g. https://public.cloudmergin.com/projects/saber/zoomstack). If a user does not have access to the project, there will be a button to request access:
 
 ![Mergin sharing setting](/images/project_sharing_send_request.png)
 
