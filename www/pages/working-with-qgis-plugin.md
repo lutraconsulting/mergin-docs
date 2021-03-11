@@ -144,3 +144,6 @@ The plugin adds several variables that can be used in QGIS expressions:
 | `@mergin_project_version`   | `42`                             | project | Current version of the active Mergin project |
 
 A common use case is to use `@mergin_username` as the default value for one of the fields in a survey layer to automatically track who has added (and/or modified) a particular record.
+
+### Diagnostic logs
+If you experience any issues with syncing data, you can send the logs to the developers for debugging the issues. To send the logs, right-click on a local project under Mergin in the Browser panel and select **Diagnostic logs**. A new window will appear, click **OK** to confirm.
