@@ -2,17 +2,21 @@
 layout: page
 ---
 
-
 ### Getting Started
 
 - [Quick Start](quick-start.html) - the best place to start reading if you are new to Mergin
-- [Registration](registration) - registration and signing up to the Mergin service
+- [Mergin website](mergin-web):
+  - [Registration](registration) - registration and signing up to the Mergin service
+  - [Dashboard](dashboard) - accessing to your recent projects, profile and other settings
+  - [Creating projects](web-creat-project) - how to create new project and upload files
+  - [Subscriptions](subscriptions) - How to subscribe to Mergin Plans
+  - [Project details](project-details) - view project files, history and changelogs
+  - [Sharing projects](sharing-project) - share your projects with other Mergin users
+  - [Advanced project settings](advanced-settings) - transfer projects to other users or delete projects
+  - [Working with organisations](working-with-organisations)- Managing organisation's projects and members
 - [Working with QGIS plugin for Mergin](working-with-qgis-plugin) - working with your Mergin data/projects from QGIS
 - [FAQ](faq.html) - answers to frequently asked questions about Mergin
 - [Developers](developers) - if you are a developer and want to automate some tasks or integrate Mergin with other software
-- [Subscriptions](subscriptions) - How to subscribe to Mergin Plans
-- [Working with Organisations](working-with-organisations)
-- [Sharing a project](sharing-project) - Sharing and collaborative work on a project
 
 ### Tutorials
 
