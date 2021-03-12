@@ -10,7 +10,7 @@ Mergin website provides a portal to register, manage and share your projects. Do
 
 - [Registration](registration) - registration and signing up to the Mergin service
 - [Dashboard](dashboard) - accessing to your recent projects, profile and other settings
-- [Creating projects](web-creat-project) - how to create new project and upload files
+- [Creating projects](web-create-project) - how to create new project and upload files
 - [Subscriptions](subscriptions) - How to subscribe to Mergin Plans
 - [Project details](project-details) - view project files, history and changelogs
 - [Sharing projects](sharing-project) - share your projects with other Mergin users
