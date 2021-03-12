@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /subscriptions
-title: Subscriptions
+title: Subscriptions and invoicing
 ---
 <!--- IMPORTANT: This permlink is referenced from InputApp -->
 
@@ -46,12 +46,6 @@ If you'd like to purchase Team plan on annual basis and would like to make bank 
 ## On-Premise deployment
 If you want to have On-Premise deployment or looking for other options, please contact us directly.
 
-## Further information
-
-Subscription plans can be also bought from the Input app (on Apple devices via in-app purchases).
-
-Your subscription will auto-renew, either annually or monthly until you unsubscribe. You can cancel or
-change your subscription any time, with Apple Manage Subscriptions App or through the Mergin web interface.
 
 ## Accessing invoices and payment history
 
@@ -59,3 +53,10 @@ To download your invoices and view your payment history:
 
 - Select the **Subscribes** option in the left panel
 - In the new window, on the top, you can choose **HISTORY** or **INVOICES** to access your previous payments and invoices
+
+## Further information
+
+Subscription plans can be also bought from the Input app (on Apple devices via in-app purchases).
+
+Your subscription will auto-renew, either annually or monthly until you unsubscribe. You can cancel or
+change your subscription any time, with Apple Manage Subscriptions App or through the Mergin web interface.
