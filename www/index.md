@@ -27,13 +27,6 @@ Tutorial 1 - Setting up a survey project and using input:
   - [Part 3 - Collecting data using Input app](tutorials/using-input.html)
   - [Part 4 - Synchronising data between devices and PC]((tutorials/data-sync.html))
 
-Coming soon...!
-
-- Syncing, history, changes, gpkgs
-- QGIS project setup: Background maps
-- QGIS project setup: Survey layers
-- QGIS project setup: Map themes
-- QGIS project setup: Advanced forms
 
 ### External Resources
 
