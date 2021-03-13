@@ -14,6 +14,7 @@ layout: page
   - [Sharing projects](sharing-project) - share your projects with other Mergin users
   - [Advanced project settings](project-advanced) - transfer projects to other users or delete projects
   - [Working with organisations](working-with-organisations)- Managing organisation's projects and members
+- [Permissions](permissions) - Mananging access to projects
 - [Working with QGIS plugin for Mergin](working-with-qgis-plugin) - working with your Mergin data/projects from QGIS
 - [FAQ](faq.html) - answers to frequently asked questions about Mergin
 - [Developers](developers) - if you are a developer and want to automate some tasks or integrate Mergin with other software
