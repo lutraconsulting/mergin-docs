@@ -14,6 +14,4 @@ You can manage your Mergin projects from within QGIS through Mergin plugin. The 
 - [Cloning an existing project](plugin-clone-project)
 - [Deleting a project](plugin-delete-project)
 - [Mergin variables in QGIS](plugin-variables)
-
-### Diagnostic logs
-If you experience any issues with syncing data, you can send the logs to the developers for debugging the issues. To send the logs, right-click on a local project under Mergin in the Browser panel and select **Diagnostic logs**. A new window will appear, click **OK** to confirm.
+- [Diagnostic logs](plugin-logs)
