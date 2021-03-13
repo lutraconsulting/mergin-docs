@@ -12,7 +12,7 @@ layout: page
   - [Subscriptions](subscriptions) - How to subscribe to Mergin Plans
   - [Project details](project-details) - view project files, history and changelogs
   - [Sharing projects](sharing-project) - share your projects with other Mergin users
-  - [Advanced project settings](advanced-settings) - transfer projects to other users or delete projects
+  - [Advanced project settings](project-advanced) - transfer projects to other users or delete projects
   - [Working with organisations](working-with-organisations)- Managing organisation's projects and members
 - [Working with QGIS plugin for Mergin](working-with-qgis-plugin) - working with your Mergin data/projects from QGIS
 - [FAQ](faq.html) - answers to frequently asked questions about Mergin

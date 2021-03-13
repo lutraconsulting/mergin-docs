@@ -18,7 +18,7 @@ To sign up to Individual or Professional plan:
 - In the new page, fill in the form
 - Select **Complete Purchase**
 
-## Team plans
+## Team plan
 
 As an organization you can subscribe to 50GB "Team" plan. Organizations are more flexible in user management
 and have finer control over individual project sharing. Also we support extended invoicing and support
