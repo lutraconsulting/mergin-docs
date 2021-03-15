@@ -10,7 +10,6 @@ You can manage your Mergin projects from within QGIS through Mergin plugin. The 
 - [Creating a new Mergin project](plugin-new-project)
 - [Downloading an existing project](plugin-download-project)
 - [Synchronising project and data](plugin-sync-project)
-- [Validation and status check](plugin-status)
 - [Cloning an existing project](plugin-clone-project)
 - [Deleting a project](plugin-delete-project)
 - [Mergin variables in QGIS](plugin-variables)

@@ -28,12 +28,14 @@ To install Mergin plugin in QGIS:
 
 After installation, you need to configure the plugin by entering your Mergin username and password:
 
-1. From the QGIS Browser panel, right-click on **Mergin** and select **Configure**
-		(alternatively from the Mergin toolbar, select the configure icon )
+1. From the Mergin toolbar, click on **Configure**
+
+<p align="center"><img src="../images/qgis-plugin/configure-toolbar.png"></p>
 
 2. In the new window, type in your username (or email address used for signing up with Mergin) and password
 
 	<p align="center"><img src="../images/qgis-plugin/configure.png"></p>
 
-You can select to store the password. For that you need to have already configured your [QGIS password manager](https://docs.qgis.org/3.10/en/docs/user_manual/auth_system/auth_overview.html?highlight=password#master-password)
-<p align="center"><img src="../images/qgis-plugin/clone.png"></p>
+You can select to store the password. For that you need to have already configured your [QGIS password manager](https://docs.qgis.org/3.16/en/docs/user_manual/auth_system/auth_overview.html?#master-password)
+
+[Back to working with the plugin](../working-with-qgis-plugin)

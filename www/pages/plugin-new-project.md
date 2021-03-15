@@ -14,11 +14,11 @@ A new window will appear which should give you three options (the last two optio
 
 - **New basic QGIS project**: if you are new to QGIS, this is a good starting point. With this option, a project will be created. Within the project there will be a survey layer (a point layer) and background map (OpenStreetMap).
 
-- **Package current QGIS project**: this option will create a copy of your project and copies all the files to a single folder. The wizard tries to guess each format and offers users three options to package the layer, keep as is (i.e. the layer will be referenced as is in the new project) or ignore (the layer will not be included in the new project). The default for each layer type is as: the web services (e.g. WMTS, XYZ tiles, vector tile layers) will be referenced in the new project as they are. Vector layers will be all written to Geopackage format (each vector in one Geopackage database). Raster layers will be copied as they are. The layers will be referenced in the new project accordingly.
+- **Package current QGIS project**: this option will create a copy of your project and copies all the files to a single folder. The wizard tries to guess each format and offers users three options to package the layer, keep as is (i.e. the layer will be referenced as is in the new project) or ignore (the layer will not be included in the new project). The default for each layer type is as follows: the web services (e.g. WMTS, XYZ tiles, vector tile layers) will be referenced in the new project as they are. Vector layers will be all written to GeoPackage format (each vector in one GeoPackage database). Raster layers will be copied as they are. The layers will be referenced in the new project accordingly.
 
 <p align="center"><img src="../images/qgis-plugin/mergin_plugin_project_wizard_3.png"></p>
 
-- **Use current QGIS project as is**: this is for cases when you have already a stand-alone folder with your projects packaged.
+- **Use current QGIS project as is**: this is for cases when you have already a stand-alone folder with your project packaged.
 
 In the next window, you will be prompted to assign a project name and select a path where your project folder and associated files will be generated (this option is only available for the first two choices):
 

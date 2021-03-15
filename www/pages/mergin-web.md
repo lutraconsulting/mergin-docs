@@ -15,4 +15,4 @@ Mergin website provides a portal to register, manage and share your projects. Do
 - [Project details](project-details) - view project files, history and changelogs
 - [Sharing projects](sharing-project) - share your projects with other Mergin users
 - [Advanced project settings](project-advanced) - transfer projects to other users or delete projects
-- [Working with organisations](working-with-organisations)- Managing organisation's projects and members
+- [Working with organisations](working-with-organisations) - Managing organisation's projects and members

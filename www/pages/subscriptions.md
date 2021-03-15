@@ -8,6 +8,8 @@ title: Subscriptions and invoicing
 Mergin Service offers a free plan for up to 100 MB data usage. For more storage you can choose one of the
 two plans for users ("Individual" 1GB or "Professional" 10GB storage).
 
+For the details visit [pricing](https://public.cloudmergin.com/pricing) page.
+
 ## Individual and Professional plans
 
 To sign up to Individual or Professional plan:
@@ -39,7 +41,7 @@ To subscribe to the Team plan, you first need to create an organisation:
   - At this time we are not processing reverse-charge VAT payments but will be doing so in the future.
   - If a VAT number is entered, this must be associated with the address you enter below.
   - The address you enter must match the address registered with your payment method (e.g. credit card)
-  - The address entered needs to match the address
+  - The address entered needs to match the VAT registered address
 
 If you'd like to purchase Team plan on annual basis and would like to make bank transfer payment, please contact us (info@lutraconsulting.co.uk) for manual invoicing.
 
@@ -51,7 +53,7 @@ If you want to have On-Premise deployment or looking for other options, please c
 
 To download your invoices and view your payment history:
 
-- Select the **Subscribes** option in the left panel
+- Select the **Subscription** option in the left panel
 - In the new window, on the top, you can choose **HISTORY** or **INVOICES** to access your previous payments and invoices
 
 ## Further information

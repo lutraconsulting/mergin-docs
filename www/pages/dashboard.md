@@ -16,13 +16,15 @@ On the left panel, you can access your profile, organisation(s) and subscription
 
 - Under **Projects**:
   - To create a new project, select **+ Create** in front of **Projects**
-  - **My projects** lists all your projects
-  - **Shared with me** lists the projects share with you
+  - **My projects** lists all projects you have created
+  - **Shared with me** lists the projects of others shared you (including your organisation projects)
   - **Explore** lists all the public projects
 
 - Under **Organisations**:
   - To create a new organisation, select **+ Create** in front of **Organisations**
   - To switch to your organisation profile, click on the organisation from the panel
+
+For more information about organisations, visit [working with organisations](working-with-organisations) page.
 
 - Under **Settings**:
   - **Profile** displays your account details, email notification settings and invitations to join organisations.

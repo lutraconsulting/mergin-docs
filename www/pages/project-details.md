@@ -6,19 +6,20 @@ title: Project history and versions
 
 In Mergin, you can see the details of the changes made to the project from different devices or users. Each time you sync the project from your mobile device or from QGIS through the plugin, a new version will be created.
 
-On the Mergin website, you can view what files have been added or removed. If you use Geopackage for your survey, you can also see the list the features which have been added, deleted or updated.
+On the Mergin website, you can view what files have been added or removed. If you use GeoPackage for your survey, you can also see the list the features which have been added, deleted or updated.
 
 To view the project history:
 
-
 - On your project page, select **HISTORY** tab from above the project files
 - In the new tab, you will see:
-  - **Version**: version of project based on number of synchronisation
+  - **Version**: version of project based on number of synchronisations
   - **Created**: time when the version was created
   - **Author**: Mergin username who created the version
-  - The next three columns: Number of files added, deleted and update respectively
+  - The next three columns: Number of files added, deleted and updated respectively
   - **Size**: Size of the project
   - In the last column, you can download the version of project
+
+![history advanced](../images/web/web-history-2.png)
 
 ## Advanced changelog
 
@@ -27,7 +28,7 @@ To see more details of a specific version:
 - A new window will appear. In addition to version and author, you can see:
   - The exact time stamp under **Created**
   - **User Agent** indicates device, operating system and tool used to create the version
-  - If you use Geopackage for your survey, you can see feature added, deleted or updated in a separate table:
+  - If you use GeoPackage for your survey, you can see a summary of features added, deleted or updated for each table (map layer):
 
   ![history](../images/web/web-history.png)
 
