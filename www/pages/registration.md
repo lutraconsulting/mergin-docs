@@ -10,10 +10,11 @@ When you register with the Mergin service, you will be automatically signed up a
 
 From the [Mergin website](https://public.cloudmergin.com/), fill in the form with a unique username, a valid email address (which is not already used with another Mergin account) and a strong password.
 
-Once, you press **Sign up**, you will receive a confirmation email. To sign in and use the Mergin service, you will need to activate your account by clicking on the link in the email.
+Once you press **Sign up**, you will receive a confirmation email. To sign in and use the Mergin service, you will need to activate your account by clicking on the link in the email.
+
 
 **Note**: check your SPAM folder if the email does not appear in your inbox after 5 minutes.
 
-Alternatively, you can sign up to the Mergin service, through [Input app](https://help.inputapp.io/howto/registration)
+If you forget your password, you can reset it through the [Mergin website](https://public.cloudmergin.com/login/reset).
 
-**Note**: if you forget your password, you can reset it through the [Mergin website](https://public.cloudmergin.com/).
+You can sign up to the Mergin service, through [Input app](https://help.inputapp.io/howto/registration).
