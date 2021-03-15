@@ -4,7 +4,7 @@ title: Creating a new Mergin project
 permalink: /plugin-new-project
 ---
 
-To create a new project, you can start from a blank project or alternatively open an existing project. You can then select **Create Mergin Project** from the toolbar:
+To create a new project, you can start from a blank project or alternatively open an existing project. To start with, click on **Create Mergin Project** from the toolbar:
 
 <p align="center"><img src="../images/qgis-plugin/mergin_plugin_project_wizard_1.png"></p>
 
