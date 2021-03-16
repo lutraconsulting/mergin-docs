@@ -24,7 +24,7 @@ Similar to project permissions, you can assign permissions to the members of you
 
 For members in an organisation, you have 4 levels of permissions:
 
-- - **Read**: users will be able to view the list of project, projects data and [history](project-details)
+- **Read**: users will be able to view the list of project, projects data and [history](project-details)
 - **Write**: in addition to the **Read** access, users can edit data of projects (adding/removing/updating files and features).
 - **Admin**: in addition to the **Write** access, users with this level of access can delete the project or transfer it to another user or organisation. Admins can also create new projects, and add/remove organisation members
 - **Owner**:  Similar to the **Admin** permission and in addition access to invoicing and subscription settings. 
