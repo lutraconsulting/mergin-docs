@@ -33,7 +33,7 @@ Yes. We offer free tier for up to 100 MB data usage. For more, you need to sign 
 
 **Is Mergin suitable for production work?**
 
-Yes, despite the fact that it is still in beta, we make regular back-ups and have replicated servers. Like other cloud-based services, see our terms of service.
+Yes, absolutely! Mergin is already being used for production work by many users.
 
 **As a developer, can I programmatically interact with the Mergin service?**
 
