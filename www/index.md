@@ -18,7 +18,7 @@ Tutorial 1 - Setting up a survey project and using input:
   - [Part 1 - Creating a Mergin project in QGIS](tutorials/qgis-new-project.html)
   - [Part 2 - Transferring data from PC to mobile](tutorials/data-transfer.html)
   - [Part 3 - Collecting data using Input app](tutorials/using-input.html)
-  - [Part 4 - Synchronising data between devices and PC]((tutorials/data-sync.html))
+  - [Part 4 - Synchronising data between devices and PC](tutorials/data-sync.html)
 
 
 ### External Resources
