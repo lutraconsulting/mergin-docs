@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Transferring data from PC to mobile/tablet using the Mergin service | Mergin Help</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Transferring data from PC to mobile/tablet using the Mergin service" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Store and track changes to your geo-data" />
+<meta property="og:description" content="Store and track changes to your geo-data" />
+<link rel="canonical" href="/tutorials/data-transfer.html" />
+<meta property="og:url" content="/tutorials/data-transfer.html" />
+<meta property="og:site_name" content="Mergin Help" />
+<script type="application/ld+json">
+{"description":"Store and track changes to your geo-data","url":"/tutorials/data-transfer.html","@type":"WebPage","headline":"Transferring data from PC to mobile/tablet using the Mergin service","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Mergin Help" /><!-- based on default minima template https://github.com/jekyll/minima/blob/master/_includes/google-analytics.html -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-144776738-1"></script>
+<script>
+  window['ga-disable-UA-144776738-1'] = window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1";
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  // we need more settings than in default template
+  gtag('config', 'UA-144776738-1', {
+    'linker': {
+      'domains': ['inputapp.io', 'cloudmergin.com'],
+      'accept_incoming': true
+    },
+    'anonymize_ip': true
+  });
+</script>
+</head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">
+    <img src="https://public.cloudmergin.com/assets/img/logo.6915e1c5.svg" style="margin-top: -10px" width="90">
+    <!--Mergin Help-->
+    </a> <span class="site-title"> &nbsp; Help Center</span><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/quick-start.html">Quick Start</a><a class="page-link" href="/faq.html">FAQ</a><a class="page-link" href="/developers.html">Developers</a><a class="page-link" href="/support">Support</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Transferring data from PC to mobile/tablet using the Mergin service</h1>
+  </header>
+
+  <div class="post-content">
+    <p>In this post, we will transfer the project and associated data set up in <a href="./qgis-new-project.html">the previous tutorial</a> to the mobile device using the <a href="https://public.cloudmergin.com/">Mergin service</a>.</p>
+
+<h1 id="transferring-data-to-mobile-devices">Transferring data to mobile devices</h1>
+
+<p>You have 2 options to transfer your data to the mobile through the Mergin service: through website or <a href="/working-with-qgis-plugin.html">through Mergin plugin in QGIS</a>. In this tutorial we are going to use the Mergin plugin from within QGIS.</p>
+
+<p>In QGIS, from the main menu, select <strong>Plugins &gt; Manage and Install Plugins …</strong>. A new window will appear. From the left panel, select <strong>All</strong> and then in the search section (on the top) search for <strong>Mergin</strong>. Select the plugin from the list and click on <strong>Install plugin</strong>. After installation, you need to <strong>restart your QGIS</strong>.</p>
+
+<p>After the restart, you should be able to see the Mergin icon in your <strong>Browser Panel</strong>:</p>
+
+<p><img src="/images/tutorials/input_basic_mergin-1.png" alt="Sharing projects through Mergin" /></p>
+
+<p>In the <strong>Browser Panel</strong>, right click on the <strong>Mergin</strong> and select <strong>Configure</strong>. Type in your username (or email address) and password that you have registered with the Mergin service.</p>
+
+<p><img src="/images/tutorials/input_basic_mergin-2.png" alt="Sharing projects through Mergin" /></p>
+
+<p>Click on <strong>Test Connection</strong> and you should see a green OK.</p>
+
+<p>If you have selected to <strong>Save credentials</strong> (so you do not need to type in the username and password again) and you have not configured QGIS password manager, you will be prompted to set a password for your QGIS password manager.</p>
+
+<p>After clicking OK, you should see a list of folders on your Mergin connection in your browser panel:</p>
+
+<p><img src="/images/tutorials/input_basic_mergin-3.png" alt="Sharing projects through Mergin" /></p>
+
+<p>We can know upload the data:</p>
+
+<p>Right click on the <strong>Mergin</strong> and select <strong>Create new project</strong>. A new window will appear:</p>
+
+<p>For <strong>Project name</strong> type <strong>Potholes survey</strong></p>
+
+<p>Select <strong>Initialize from local drive</strong></p>
+
+<p>Click on … and and select <strong>data collection</strong> folder</p>
+
+<p><img src="/images/tutorials/input_basic_mergin-4.png" alt="Sharing projects through Mergin" /></p>
+
+<p>Once click OK, the project will be created and content of the <strong>data collection</strong> folder will be uploaded there.</p>
+
+<p>The project is now ready to be <a href="./using-input.html">downloaded on your mobile device</a>, so that you can start the survey.</p>
+
+  </div>
+
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Mergin Help Center</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+<!--          <li class="p-name">Mergin Help</li>--><li><a class="u-email" href="mailto:info@lutraconsulting.co.uk">info@lutraconsulting.co.uk</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><a href="https://www.facebook.com/lutraconsulting"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#facebook"></use></svg></a><a href="https://github.com/lutraconsulting"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg></a><a href="https://www.linkedin.com/company/lutra-consulting/"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#linkedin"></use></svg></a><a href="https://www.twitter.com/lutraconsulting"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg></a></div>
+
+      <div class="footer-col footer-col-3">
+        <p>Store and track changes to your geo-data</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

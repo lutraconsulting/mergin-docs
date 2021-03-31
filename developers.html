@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Developers | Mergin Help</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Developers" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Store and track changes to your geo-data" />
+<meta property="og:description" content="Store and track changes to your geo-data" />
+<link rel="canonical" href="/developers.html" />
+<meta property="og:url" content="/developers.html" />
+<meta property="og:site_name" content="Mergin Help" />
+<script type="application/ld+json">
+{"description":"Store and track changes to your geo-data","url":"/developers.html","@type":"WebPage","headline":"Developers","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Mergin Help" /><!-- based on default minima template https://github.com/jekyll/minima/blob/master/_includes/google-analytics.html -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-144776738-1"></script>
+<script>
+  window['ga-disable-UA-144776738-1'] = window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1";
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  // we need more settings than in default template
+  gtag('config', 'UA-144776738-1', {
+    'linker': {
+      'domains': ['inputapp.io', 'cloudmergin.com'],
+      'accept_incoming': true
+    },
+    'anonymize_ip': true
+  });
+</script>
+</head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">
+    <img src="https://public.cloudmergin.com/assets/img/logo.6915e1c5.svg" style="margin-top: -10px" width="90">
+    <!--Mergin Help-->
+    </a> <span class="site-title"> &nbsp; Help Center</span><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/quick-start.html">Quick Start</a><a class="page-link" href="/faq.html">FAQ</a><a class="page-link" href="/developers.html">Developers</a><a class="page-link" href="/support">Support</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Developers</h1>
+  </header>
+
+  <div class="post-content">
+    <p>Mergin is an open platform that aims to be developer friendly, and it has been designed to allow easy integration with other software.</p>
+
+<h3 id="python-client">Python Client</h3>
+
+<p>The easiest way to use Mergin programmatically is to use the Python client module. It is available in the PyPI repository and so it can be installed with <code class="language-plaintext highlighter-rouge">pip</code>:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip3 install mergin-client
+</code></pre></div></div>
+
+<p>A quick code example to download a project:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">mergin</span> <span class="kn">import</span> <span class="n">MerginClient</span>
+
+<span class="n">mc</span> <span class="o">=</span> <span class="n">MerginClient</span><span class="p">(</span><span class="n">login</span><span class="o">=</span><span class="s">'john'</span><span class="p">,</span> <span class="n">password</span><span class="o">=</span><span class="s">'topsecret'</span><span class="p">)</span>
+<span class="n">mc</span><span class="p">.</span><span class="n">download_project</span><span class="p">(</span><span class="s">'john/project1'</span><span class="p">,</span> <span class="s">'/home/john/mergin/project1'</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>You can of course also get project status, push/pull changes, create/delete projects and more.</p>
+
+<p>The source code of the Python client is available on GitHub in <a href="https://github.com/lutraconsulting/mergin-py-client">lutraconsulting/mergin-py-client</a> repository.</p>
+
+<h3 id="command-line-interface">Command Line Interface</h3>
+
+<p>For those who prefer using terminal, there is <code class="language-plaintext highlighter-rouge">mergin</code> command line tool shipped with the Python client.
+With several built-in commands, it is possible to download Mergin projects, push/pull changes, create or delete projects and more.</p>
+
+<p>For example, to download a Mergin project to a local directory:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mergin download john/project1 ~/mergin/project1
+</code></pre></div></div>
+
+<p>Please see <a href="https://github.com/lutraconsulting/mergin-py-client">lutraconsulting/mergin-py-client</a> repository for more information on the usage.</p>
+
+<h3 id="database-sync">Database Sync</h3>
+
+<p>Integrating with other databases is an important feature provided by the DB sync tool, hosted in <a href="https://github.com/lutraconsulting/mergin-db-sync">lutraconsulting/mergin-db-sync</a>
+repository. It takes care of synchronization of changes between a Mergin project and a PostgreSQL database. The synchronization works both ways:
+it pushes changes from PostgreSQL to Mergin and it also pulls changes from Mergin to PostgreSQL. Please see the project page for more details.</p>
+
+<h3 id="webhooks-coming-soon">Webhooks (coming soon)</h3>
+
+<p>We will be soon adding support for webhooks to allow integration with other platforms. It will be possible to listen to notifications sent over HTTPS protocol whenever your project gets an update. Contact us if you would like to get early access to this feature.</p>
+
+<h3 id="mobile-apps">Mobile Apps</h3>
+
+<p>The <a href="https://inputapp.io/">Input app</a> is a great companion to Mergin as it provides seamless synchronization of data between your phone/tablet and Mergin service. We know that sometimes people want a mobile app optimized for a specific use case rather than just using a general purpose app like Input.</p>
+
+<p>The good news is that Input is licensed as open source software and therefore it is possible to build custom apps off it. Maybe you just want to change the branding or disable some funcationality - or maybe you want a bigger overhaul of the user interface - anything is possible with a bit of development.</p>
+
+<p>If you are interested in building a custom app, you can start by going to <a href="https://github.com/lutraconsulting/input">Input repository</a> on GitHub and building it for your platform. The <a href="https://github.com/lutraconsulting/input-sdk">Input SDK repository</a> provides all the dependencies for various platforms (Android, iOS, macOS, Windows).</p>
+
+  </div>
+
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Mergin Help Center</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+<!--          <li class="p-name">Mergin Help</li>--><li><a class="u-email" href="mailto:info@lutraconsulting.co.uk">info@lutraconsulting.co.uk</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><a href="https://www.facebook.com/lutraconsulting"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#facebook"></use></svg></a><a href="https://github.com/lutraconsulting"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg></a><a href="https://www.linkedin.com/company/lutra-consulting/"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#linkedin"></use></svg></a><a href="https://www.twitter.com/lutraconsulting"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg></a></div>
+
+      <div class="footer-col footer-col-3">
+        <p>Store and track changes to your geo-data</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
